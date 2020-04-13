@@ -1,0 +1,187 @@
+/* Normal desktop :1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .hero-area {
+        height: 900px;
+    }
+    .hero-img {margin-right: -150px;}
+    .single-team-member {
+        height: 370px;
+    }
+    .showcase-item {
+        height: 630px;
+    }
+
+}
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu li {
+        padding-left: 25px;
+    }
+    .hero-content h2 {
+        font-size: 75px;
+    }
+    .hero-area {
+        height: 800px;
+        padding-top: 200px;
+    }
+    .feature-box {
+        min-height: 323px;
+    }
+    .tile-img .back, .tile-img .up {
+        width: 100%;
+        top: 20px;
+    }
+    .tile-img .up {
+        right: -45px;
+        bottom: -70px;
+        top: auto;
+    }
+    .list-title h2 {
+        font-size: 35px;
+    }
+    .list-area-content {
+        padding-left: 70px;
+    }
+    .section-title h3 {
+        font-size: 50px;
+    }
+    .showcase-item {
+        height: 530px;
+    }
+    .package-plan-item {
+        padding: 35px 25px;
+    }
+    .single-team-member {
+        height: 350px;
+    }
+    .show-case-hover-text {
+        padding: 50px;
+    }
+
+}
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .header-top-leftside .mail {
+        margin-right: 30px;
+    }
+    .header-main {
+        padding: 20px 0;
+    }
+    .header-area.sticky .header-main {
+        padding: 20px 0;
+    }
+    .hero-area {
+        height: 800px;
+        padding-top: 200px;
+    }
+    .video-area, .list-area, .feature-area, .skill-area, .show-case-area, .package-area, .reaquest-area, .testimonial-area {
+        padding: 100px 0;
+    }
+    .tile-img {
+        display: none;
+    }
+    .fact-icon {
+        margin-bottom: 30px;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .single-fact-box {
+        text-align: center;
+    }
+    .section-title h3 {
+        font-size: 50px;
+    }
+    .showcase-item {
+        height: 450px;
+    }
+    .single-team-member {
+        height: 350px;
+    }
+    .footer-area {
+        padding-top: 100px;
+    }
+    .show-case-hover-text {
+        padding: 30px;
+    }
+    .show-case-hover-text h3 {
+        font-size: 35px;
+    }
+
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .hero-content h2 {
+        font-size: 40px;
+    }
+    .hero-content p {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    .hero-area {
+        height: 550px;
+        padding-top: 130px;
+    }
+    .feature-title h2 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .ceo-text h3, .skill-title h3 {
+        font-size: 31px;
+        padding-right: 0;
+    }
+    .video-text h2 {
+        font-size: 32px;
+        padding: 0px;
+    }
+    .list-title h2 {
+        font-size: 30px;
+    }
+    .list-area-content {
+        padding-left: 0;
+    }
+    .section-title h3 {
+        font-size: 35px;
+    }
+    .single-team-member {
+        height: 500px;
+    }
+    .request-title h2 {
+        font-size: 35px;
+    }
+    .request-title p {
+        padding-right: 0;
+    }
+    .quote img {
+        left: 2%;
+    }
+    .quote img.right {
+        right: 2%;
+        left: auto;
+    }
+    .footer-text p {
+        padding: 0;
+    }
+    .showcase-item {
+        height: 400px;
+    }
+    .show-case-hover-text {
+        padding: 0;
+    }
+    .show-case-hover-text h3 {
+        font-size: 35px;
+    }
+    .show-case-hover-text {
+        padding: 30px;
+    }
+    
+ 
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.single-team-member {
+    height: 600px;
+}
+ 
+}
